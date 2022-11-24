@@ -33,8 +33,8 @@ void Linea::setM()
 
 string Linea::toString()
 {
-    return "P1 (" + to_string(getP1()->getX()) + "," + to_string(getP1()->getY()) + ") - P2 (" +
-           to_string(getP2()->getX()) + "," + to_string(getP2()->getY()) + ")";
+    return "L" + to_string(Num_Lineas) + "["+ "P1 (" + to_string(getP1()->getX()) + "," + to_string(getP1()->getY()) + ") - P2 (" +
+           to_string(getP2()->getX()) + "," + to_string(getP2()->getY()) + ")" + " d = " + to_string(d) + " m = " + to_string(m)+ "]";
 }
 
 Linea::Linea()

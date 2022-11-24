@@ -19,5 +19,6 @@ int main()
     Punto p2(8,9);
     Linea l1(&p1, &p2);
     Linea::Num_Lineas++;
+    cout << l1.toString();
     return 0;
 }
