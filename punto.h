@@ -1,3 +1,9 @@
+/************************************
+ * Nombre: Juan Donoso              *
+ * Cedula: 1723514335               *
+ * Correo: jdonosoo@est.ups.edu.ec  *
+ * Fecha: 24/11/2022                *
+ * **********************************/
 #ifndef PUNTO_H
 #define PUNTO_H
 #include <iostream>
@@ -14,7 +20,7 @@ public:
     Punto(int, int);
     int getX() const;
     int getY() const;
-    string toString();
+    virtual string toString();
 };
 
 #endif // PUNTO_H
